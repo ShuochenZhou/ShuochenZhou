@@ -38,7 +38,9 @@ A platform for asking questions about long videos and generating answers with ti
 
 ### Isolated Areas Help Hub
 
-A pickup and delivery platform developed for the [2024 Millennium Fellowship](https://www.millenniumfellows.org/fellow/2024/shanghainyu/shuochen-zhou). I built the WeChat and web applications, transactional inventory and event processing, capacity-constrained dispatch, and an assistant that checks ownership and requires confirmation before writes.
+A pickup and delivery platform where underserved Shanghai residents request free supplies, couriers deliver them, and administrators manage stock. I built the WeChat and web applications, transactional inventory and event processing, capacity-constrained dispatch, and an assistant that checks ownership and requires confirmation before writes.
+
+I received the [2024 Millennium Fellowship](https://www.millenniumfellows.org/fellow/2024/shanghainyu/shuochen-zhou) for this project.
 
 [Code](https://github.com/ShuochenZhou/Isolated-Areas-Help-Hub) · [Live site](https://qingpu-help-hub.vercel.app)
 
