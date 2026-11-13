@@ -1,6 +1,6 @@
 # Shuochen (Michael) Zhou
 
-I am a Computer Science undergraduate at NYU Shanghai (B.S., expected May 2027), an undergraduate researcher with the eBRAIN Lab at NYU Abu Dhabi, and an AI Software Engineering Intern at Intel.
+I am a Computer Science undergraduate at NYU Shanghai (B.S., expected May 2027), an undergraduate researcher with the eBRAIN Lab at NYU Abu Dhabi, and an AI Solutions Engineering Intern at Intel.
 
 My research focuses on efficient and reliable continual learning in spiking neural networks. In my projects, I build tool-using agents and retrieval systems with explicit control over context, resource use, and failure recovery.
 
