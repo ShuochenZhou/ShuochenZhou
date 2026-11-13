@@ -16,7 +16,7 @@ Rachmad Vidya Wicaksana Putra, **Shuochen Zhou**, Hassan Raza, and Muhammad Shaf
 
 *Preprint, 2026. Under review at AAAI 2027.* · [Paper](https://arxiv.org/abs/2610.31927) · [Code](https://github.com/ShuochenZhou/ENCL)
 
-ENCL combines local learning with task-specific subnetwork freezing for efficient continual learning in spiking neural networks. I aligned local supervision with task-specific output classes, retrained task heads on frozen backbone features, and replaced multi-candidate subnetwork selection with one random subnetwork per task and overlap-aware mask completion using unused neurons.
+An efficient continual learning method for spiking neural networks that combines local learning with task-specific subnetwork freezing. Across four benchmarks, it achieves competitive accuracy while reducing memory use by up to **88%**, training time by up to **51%**, and energy consumption by up to **65%**.
 
 ### RobustNCL
 
@@ -26,19 +26,19 @@ Rachmad Vidya Wicaksana Putra, **Shuochen Zhou**, and Muhammad Shafique.
 
 *Preprint, 2026. Under review at ICLR 2027.* · [Paper](https://arxiv.org/abs/2610.31954) · [Code](https://github.com/ShuochenZhou/RobustNCL)
 
-RobustNCL protects neuromorphic continual learning against transient memory faults. I simulated DRAM bit flips after each task, traced accuracy collapse to outlying weights, and developed repairs for ENCL and memory replay using clean per-layer min/max/mode statistics, including protection of later tasks' initialization.
+A lightweight detect-and-cure framework for maintaining continual learning in spiking neural networks under transient DRAM faults. At high tested fault rates, its best variant stays within **0.5 percentage points** of fault-free accuracy.
 
 ## Selected Projects
 
 ### AskVideo
 
-A full-stack platform where users submit a video file or link and request answers, summaries, study guides, critiques, or voiceover scripts with timestamp citations. I built a bounded Planner–Executor–Critic workflow with conversation memory, plus a Qwen3-1.7B pipeline for distillation from DeepSeek-V3.2, full/LoRA/QLoRA fine-tuning, FFN pruning, NNCF mixed INT4/INT8 compression, OpenVINO Model Server deployment with continuous batching and chunked prefill, and VTune profiling.
+A video analysis platform where users submit a video file or link and request answers, summaries, study guides, critiques, or voiceover scripts with timestamp citations. Multimodal retrieval and a bounded Planner–Executor–Critic workflow connect generated content to source evidence; a local model pipeline supports distillation, compression, and OpenVINO deployment.
 
 [Code](https://github.com/ShuochenZhou/AskVideo)
 
 ### Isolated Areas Help Hub
 
-A pickup and delivery platform where underserved Shanghai residents request free supplies, couriers deliver them, and administrators manage stock. I independently built the WeChat app and backend, then wrote a compiler to port the app to the web. The system combines idempotent writes, inventory locking, a transactional outbox, capacity-aware dispatch with 2-opt routing, and an LLM assistant that uses live data with ownership checks, confirmation tokens, and a rule-based fallback.
+A pickup and delivery platform where underserved Shanghai residents request free supplies, couriers deliver them, and administrators manage stock. It runs on WeChat and the web, with route planning and an LLM assistant connected to live service data.
 
 I received the [2024 Millennium Fellowship](https://www.millenniumfellows.org/fellow/2024/shanghainyu/shuochen-zhou) for this project.
 
@@ -46,12 +46,12 @@ I received the [2024 Millennium Fellowship](https://www.millenniumfellows.org/fe
 
 ### GrowAgent
 
-A general-purpose agent runtime with **self-evolving skills**. I built a workflow that extracts durable requirements from user feedback, decides whether to add, merge, or discard skills, and supports replay evaluation, versioned updates, and archival of unused skills. The runtime supports OpenAI- and Anthropic-compatible models, five permission modes, resumable sessions, three-layer context folding, on-demand skill and memory retrieval, MCP, and isolated sub-agents.
+A general-purpose agent runtime with **self-evolving skills** that learns reusable instructions from user feedback. Persistent memory, context folding, controlled tool execution, MCP tools, and sub-agents support long-running tasks, with replay evaluation and versioning for skill updates.
 
 [Code](https://github.com/ShuochenZhou/GrowAgent)
 
 ### Ne Zha II Review Explorer
 
-An interactive dashboard for exploring Maoyan and Douban reviews of Ne Zha II. I built a rate-limited crawler with transactional checkpoints and idempotent writes, six linked views over a five-dimensional data cube, and cross-lingual BM25 search over Chinese bigrams and English translations with topic and sentiment boosts. Province colors show gaps from national sentiment using an outlier-resistant scale; evaluation tools support blind relevance judging.
+An interactive dashboard for exploring Ne Zha II reviews across platforms, regions, and time. Six linked views and Chinese–English search connect aggregate patterns with individual reviews.
 
 [Code](https://github.com/ShuochenZhou/nezha-ii-review-explorer) · [Live dashboard](https://nezha-ii-reception-atlas.vercel.app)
