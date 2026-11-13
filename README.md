@@ -42,14 +42,14 @@ A pickup and delivery platform developed for the [2024 Millennium Fellowship](ht
 
 [Code](https://github.com/ShuochenZhou/Isolated-Areas-Help-Hub) · [Live site](https://qingpu-help-hub.vercel.app)
 
-### Ne Zha II Review Explorer
-
-An interactive dashboard for exploring audience responses across China. I built resumable review collection, six coordinated analytical views over a precomputed data cube, and bilingual BM25 search with tools for blind relevance assessment.
-
-[Code](https://github.com/ShuochenZhou/nezha-ii-review-explorer) · [Live dashboard](https://nezha-ii-reception-atlas.vercel.app)
-
 ### GrowAgent
 
 A Python runtime for tool-using agents. I implemented model-provider adapters, permission-controlled tool execution, recoverable sessions, structured context folding, MCP integration, and skill evolution with replay evaluation and versioned updates.
 
 [Code](https://github.com/ShuochenZhou/GrowAgent)
+
+### Ne Zha II Review Explorer
+
+An interactive dashboard for exploring audience responses across China. I built resumable review collection, six coordinated analytical views over a precomputed data cube, and bilingual BM25 search with tools for blind relevance assessment.
+
+[Code](https://github.com/ShuochenZhou/nezha-ii-review-explorer) · [Live dashboard](https://nezha-ii-reception-atlas.vercel.app)
