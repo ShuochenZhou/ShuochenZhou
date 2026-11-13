@@ -46,7 +46,7 @@ I received the [2024 Millennium Fellowship](https://www.millenniumfellows.org/fe
 
 ### GrowAgent
 
-A Python runtime for tool-using agents. I implemented model-provider adapters, permission-controlled tool execution, recoverable sessions, structured context folding, MCP integration, and skill evolution with replay evaluation and versioned updates.
+A Python runtime for tool-using agents with **self-evolving skills**. I built a feedback-driven workflow for extracting reusable instructions, evaluating candidate skills through replay, and publishing versioned updates. The runtime also includes model-provider adapters, permission-controlled tool execution, recoverable sessions, structured context folding, and MCP integration.
 
 [Code](https://github.com/ShuochenZhou/GrowAgent)
 
